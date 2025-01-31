@@ -1,5 +1,5 @@
 import "./App.css";
-import { Route, Routes } from "react-router";
+import { Route, Routes, BrowserRouter } from "react-router";
 import Navbar from "./components/Navbar.js";
 import Slider from "./components/Slider.js";
 import About from "./components/About.js";
@@ -9,6 +9,7 @@ import ProductDetails from "./components/ProductDetails.js";
 function App() {
   // new page == new route (بأختصار كده)
   return (
+    <BrowserRouter basename="/E_Commerce_React.JS">
     <div className="App">
       <Navbar />
       <Routes>
@@ -20,6 +21,7 @@ function App() {
         <Route path="/ProductDetails/:ProductId" element={<ProductDetails />}/>
       </Routes>
     </div>
+    </BrowserRouter>
   );
 } 
 
