@@ -1,15 +1,18 @@
 {
   "files": {
     "main.css": "/E_Commerce_React.JS/static/css/main.71da8b29.css",
-    "main.js": "/E_Commerce_React.JS/static/js/main.b0e94476.js",
+    "main.js": "/E_Commerce_React.JS/static/js/main.396363f0.js",
     "static/js/488.710c8c07.chunk.js": "/E_Commerce_React.JS/static/js/488.710c8c07.chunk.js",
+    "static/media/2021-03-15_eCommerceCOVID19report-1-1220x675px.jpg": "/E_Commerce_React.JS/static/media/2021-03-15_eCommerceCOVID19report-1-1220x675px.aa65159f6748e80a3acb.jpg",
+    "static/media/ecommerce.jpg": "/E_Commerce_React.JS/static/media/ecommerce.990fb12b783000af56e3.jpg",
+    "static/media/ecommerce_1.webp": "/E_Commerce_React.JS/static/media/ecommerce_1.76bf606a9104526695ce.webp",
     "index.html": "/E_Commerce_React.JS/index.html",
     "main.71da8b29.css.map": "/E_Commerce_React.JS/static/css/main.71da8b29.css.map",
-    "main.b0e94476.js.map": "/E_Commerce_React.JS/static/js/main.b0e94476.js.map",
+    "main.396363f0.js.map": "/E_Commerce_React.JS/static/js/main.396363f0.js.map",
     "488.710c8c07.chunk.js.map": "/E_Commerce_React.JS/static/js/488.710c8c07.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.71da8b29.css",
-    "static/js/main.b0e94476.js"
+    "static/js/main.396363f0.js"
   ]
 }
