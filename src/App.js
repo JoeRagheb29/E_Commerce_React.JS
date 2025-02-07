@@ -9,8 +9,7 @@ import ProductDetails from "./components/ProductDetails.js";
 function App() {
   // new page == new route (بأختصار كده)
   return (
-    <BrowserRouter basename="/E_Commerce_React.JS">
-    <div className="App">
+    <div className="App bg-light">
       <Navbar />
       <Routes>
         <Route path="/" element={
@@ -18,10 +17,9 @@ function App() {
           <ProductList /></>
         } />
         <Route path="/About" element={<About />} />
-        <Route path="/ProductDetails/:ProductId" element={<ProductDetails />}/>
+        <Route path="/ProductDetails/:APInum/:ProductId" element={<ProductDetails />}/>
       </Routes>
     </div>
-    </BrowserRouter>
   );
 } 
 
