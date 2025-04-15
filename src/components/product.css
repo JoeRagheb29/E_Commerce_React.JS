@@ -1,0 +1,46 @@
+:root {
+    /* --bg-violetLight: #b9b8fa; */
+    --bg-violetLight: #D1F8EF;
+    --card-transition-duration: 0.3s;
+}
+
+.violetLight {
+    background-color: var(--bg-violetLight);
+    /* transition: background-color var(--card-transition-duration) ease; */
+}
+
+.violet {
+    background-color: rgb(55, 0, 218);
+    /* transition: background-color var(--card-transition-duration) ease; */
+}
+
+.h-600 {
+    height: 600px !important ;
+}
+
+.card-text {
+    font-size: 16px;
+    line-height: 24px;
+    color: #333;
+    overflow: hidden;
+    max-height: 100px;
+}
+
+.hoover:hover {
+    /* transition: scale(1.1) 0.3s; */
+    transform: scale(1.035);
+    transition:  0.2s ease-in-out;
+}
+
+.productShadow:hover {
+    box-shadow: 7px 7px 7px 7px rgba(0, 30, 255, 0.594);
+    transition: box-shadow var(--card-transition-duration) ease;
+}
+
+.top-50c {
+    top: 40vh;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 300;
+    max-width: 50%;
+}
